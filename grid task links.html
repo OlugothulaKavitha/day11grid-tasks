@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            display: none;
+           background-color: lightblue;
+            padding: 10px;
+            font-size: 20px;
+            color: black;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .a {
+        display:block;
+        text-decoration:none;
+        padding: 10px;
+        text-align:start;
+        color: black;
+        font-size: 30PX;
+        border-radius: 30px;
+    }
+        .grid {
+            display: block;
+           background-color: lightblue;
+            padding: 10px;
+            font-size: 20px;
+            color: black;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        .ab:hover{
+            opacity: 0.75;
+            color: green;
+            text-shadow: 10px;
+        }
+        .cd:hover{
+            opacity: 0.75;
+            color:green;
+            text-shadow: 10px;
+        }
+        .ef:hover {
+            opacity: 0.75;
+            color:green;
+            text-shadow: 10px;
+        }
+        .grid:focus-within +.a {
+        display: block;
+    }
+    .div:focus-within{
+        display: block;
+    }
+    .grid:hover{
+            opacity: 0.75;
+            color: red;
+            text-shadow: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button class="grid">Click here to see</button>
+        <div class="a">
+            <div class="ab">
+            <button><a href="https://olugothulakavitha.github.io/day11grid-tasks/gridtask1" target="_blank">task1</a></button></div>
+            <div class="cd">
+            <button><a href=" https://olugothulakavitha.github.io/day11grid-tasks/gridtask2" target="_blank">task2</a></button></div>
+            <div class="ef">
+           <button><a href="https://olugothulakavitha.github.io/day11grid-tasks/grid.task3" target="_blank">task3</a></button></div>
+        </div>
+    </div>
+</body>
+
+</html>
